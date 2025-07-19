@@ -1,16 +1,22 @@
-# login_app
+# Flutter Login Page App
 
-A new Flutter project.
+A simple Flutter app demonstrating a **Sign Up** and **Login** UI with navigation between pages using `Navigator.push`.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- **HomePage**:
+  - Title and subtitle for sign up
+  - Input fields:
+    - Username
+    - Email
+    - Password
+    - Confirm password
+  - Sign up button
+  - Sign in with Google button (UI only)
+  - Navigation to LoginPage using a button
 
-A few resources to get you started if this is your first Flutter project:
+- **LoginPage**:
+  - Username input
+  - Confirm password input
+  - Login button
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
