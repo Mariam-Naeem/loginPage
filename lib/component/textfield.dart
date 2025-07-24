@@ -13,7 +13,7 @@ class Textfield extends StatelessWidget {
     this.prefixIcon,
     this.hintText,
     this.textAlign,
-    this.obscuretext
+    this.obscuretext,
   });
 
   @override
@@ -25,9 +25,7 @@ class Textfield extends StatelessWidget {
         textAlign: textAlign ?? TextAlign.left,
         decoration: InputDecoration(
           hintText: hintText ?? "Username",
-      
-          // prefixIcon: prefixIcon,
-          suffixIcon: prefixIcon ?? null,
+          suffixIcon: prefixIcon,
           hintStyle: TextStyle(color: hintColor),
           filled: true,
           border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
